@@ -1,0 +1,236 @@
+{
+  "SchemaVersion": 1,
+  "Entries": [
+    {
+      "Key": "090d810d8e85487f890cd568042e0001",
+      "SimpleName": "BetaStrike.Description",
+      "English": "You get an additional {g|Encyclopedia:Attack}attack{/g} per {g|Encyclopedia:Combat_Round}round{/g} but take a –4 penalty to damage rolls.",
+      "ProcessTemplates": true,
+      "Reason": "BetaStrike.cs removed damage penalty; current shorter description is translated."
+    },
+    {
+      "Key": "71b8f07456cb4f8289095c05d59a15e7",
+      "SimpleName": "BulkMaster.Description",
+      "English": "You gain +10 {g|Encyclopedia:HP}hit points{/g} and a +1 bonus to your Strength.",
+      "ProcessTemplates": true,
+      "Reason": "UnderpoweredAbilitySelection.cs replaced Bulk Master with Super Strength (+50 HP/+4 Str)."
+    },
+    {
+      "Key": "90b1014a6d6c42ed94fe76bf311c097a",
+      "SimpleName": "BulkMaster.Name",
+      "English": "Underpowered Ability — Bulk Master",
+      "ProcessTemplates": false,
+      "Reason": "Replaced by Super Strength in UnderpoweredAbilitySelection.cs."
+    },
+    {
+      "Key": "146b34fd377a4c03819ce497371aae3b",
+      "SimpleName": "ChuunibyouActualisationAreaBuff.Description",
+      "English": "Allies within 120 feet gain 1 additional <b><color=#703565><link=\"Encyclopedia:Attack\">attack</link></color></b> to their main weapon, a +10 bonus to speed, and attacks have a 50% chance to miss them.",
+      "ProcessTemplates": true,
+      "Reason": "Stale processed HTML form; current Helpers.CreateString uses raw g-link text shared by active description."
+    },
+    {
+      "Key": "aee826bb46db4d34afc78446492b5575",
+      "SimpleName": "ChuunibyouActualisationFeature.Description",
+      "English": "Allies within 120 feet gain 1 additional <b><color=#703565><link=\"Encyclopedia:Attack\">attack</link></color></b> to their main weapon, a +10 bonus to speed, and attacks have a 50% chance to miss them.",
+      "ProcessTemplates": true,
+      "Reason": "Stale processed HTML form; current Helpers.CreateString uses raw g-link text."
+    },
+    {
+      "Key": "1969ee3dd2b54348b0e63729efbe359a",
+      "SimpleName": "DeusExMachinaBuff.Description",
+      "English": "Once per day, when your {g|Encyclopedia:HP}HP{/g} drops to 0, you are resurrected to full health. Allies within 40 feet are then restored to full health while enemies instantly die.",
+      "ProcessTemplates": true,
+      "Reason": "Buff now reuses full DeusExMachinaDescription instead of old truncated English."
+    },
+    {
+      "Key": "514ee1afea2b4f4fa9b68cac9d020184",
+      "SimpleName": "DodgeMaster.Description",
+      "English": "You gain a +2 dodge {g|Encyclopedia:Bonus}bonus{/g} to your {g|Encyclopedia:Armor_Class}AC{/g}.",
+      "ProcessTemplates": true,
+      "Reason": "Current UnderpoweredAbilitySelection.cs has new +4 AC and inherited feature text, not old +2."
+    },
+    {
+      "Key": "db0ff1f4b40848b4a1455f5965f7c00c",
+      "SimpleName": "DupeGold.Description",
+      "English": "In this new world, you will have limitless wealth.\nBenefit: As a standard action, you gain 1 million gold.",
+      "ProcessTemplates": false,
+      "Reason": "DupeGold replaced by MerchantsGamble; no current DupeGold registration."
+    },
+    {
+      "Key": "f940fbeda43942d491a5883be578b19c",
+      "SimpleName": "",
+      "English": "Overpowered Ability — Dupe Gold",
+      "ProcessTemplates": false,
+      "Reason": "DupeGold replaced by MerchantsGamble; old anonymous name is not registered."
+    },
+    {
+      "Key": "95fa2571579a4b82a4a5b55780835834",
+      "SimpleName": "Instakill.Description",
+      "English": "Who will live and who will die? This power to change fate lay within your hands. Will you use this power sparingly? Or will you become god of the new world?\nBenefit: Kills the targeted creature if they fail a DC 99 fortitude saving throw, otherwise they are stunned for 1 round. This ability bypasses death immunity.",
+      "ProcessTemplates": false,
+      "Reason": "Current Instakill.cs has new description; Korean follows the actual fixed-damage action."
+    },
+    {
+      "Key": "d4ad925cfe9e4aba8ff63c16f2d01ec1",
+      "SimpleName": "IsekaiChannelPositiveEnergyFeature.Description",
+      "English": "You gain the supernatural ability to channel positive energy like a cleric. You use your character level as your effective cleric level when channeling positive energy.  You can channel energy a number of times per day equal to 3 + your Charisma modifier.",
+      "ProcessTemplates": true,
+      "Reason": "Current source scales with Isekai Protagonist level rather than character level."
+    },
+    {
+      "Key": "c6a80cd4986a4a9c974dfd60d7d9fe4c",
+      "SimpleName": "IsekaiChannelPositiveHealAbility.Description",
+      "English": "Channeling positive energy causes a burst that heals every living creature in a 30-foot radius centered on the caster. The amount of damage healed is equal to 1d6 points of damage plus 1d6 points of damage for every two character levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on).",
+      "ProcessTemplates": true,
+      "Reason": "Current source scales with Isekai Protagonist level rather than character level."
+    },
+    {
+      "Key": "76ed9a699b9b447db9498263cde5e614",
+      "SimpleName": "IsekaiDialogueFinnean.Text",
+      "English": "(Isekai Protagonist) \"Hey can you transform into a hot succubus?\"",
+      "ProcessTemplates": false,
+      "Reason": "Rewritten current dialogue asks for a cooler form, not a succubus."
+    },
+    {
+      "Key": "267aaf8c92d44b97b8b40b421d38a0b3",
+      "SimpleName": "IsekaiDialogueFinneanReply.Text",
+      "English": "\"No, but I can transform into a flamberge greatsword to stick up your bitch ass.\"",
+      "ProcessTemplates": false,
+      "Reason": "Rewritten current response explains ability to become any weapon."
+    },
+    {
+      "Key": "f6b0747fd79244208a32a02247ece79c",
+      "SimpleName": "IsekaiDialogueHorgus.Text",
+      "English": "(Isekai Protagonist) \"Two thousand gold... And your daughter joins my harem.\"",
+      "ProcessTemplates": false,
+      "Reason": "Current choice asks for marriage blessing, not harem membership."
+    },
+    {
+      "Key": "a5b5ec8da25e43a4a1e951266cdcbd06",
+      "SimpleName": "IsekaiDialogueNenioStatueAnswer5.Text",
+      "English": "(Isekai Protagonist) \"I am God.\"",
+      "ProcessTemplates": false,
+      "Reason": "Current English is I am a God., not I am God."
+    },
+    {
+      "Key": "62933e4e30574f1cb91d850678a64b6b",
+      "SimpleName": "IsekaiKitsuneHeritage.Description",
+      "English": "Otherworldly entities who are reincarnated into the world of Golarion as a Furry have both extreme beauty and power. They are very furry.\nThe Isekai Kitsune has a +4 racial {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:Dexterity}Dexterity{/g}, a +2 racial bonus to {g|Encyclopedia:Intelligence}Intelligence{/g} and {g|Encyclopedia:Charisma}Charisma{/g}, and a -2 penalty to Strength. They have a +10 bonus to speed and have fast healing equal to their character level.",
+      "ProcessTemplates": true,
+      "Reason": "Current source introduces a partly divine Kitsune rather than Furry."
+    },
+    {
+      "Key": "daaf45e13ada4b1ba5296578b9aba724",
+      "SimpleName": "IsekaiHumanHeritageDummyFeat.Description",
+      "English": "A <b><color=#703565><link=\"Encyclopedia:Feat\">feat</link></color></b> is an ability a character has mastered. Feats often allow characters to circumvent rules or restrictions.\nCharacters gain one feat at the 1st level and every two levels thereafter. Humans receive a bonus feat at 1st level.",
+      "ProcessTemplates": true,
+      "Reason": "HumanHeritageSelection.cs inherits FeatTools BasicFeatSelection description; no own replacement is generated."
+    },
+    {
+      "Key": "3cedaa23c66042a3a65e5913bd93c745",
+      "SimpleName": "KillingIntent.Description",
+      "English": "Enemies within 40 feet of you become shaken, frightened, and cowering.",
+      "ProcessTemplates": false,
+      "Reason": "Current source no longer applies Cowering; current shaken/frightened text translated."
+    },
+    {
+      "Key": "0a059a26e6b54e65a05c69ef7d077f1c",
+      "SimpleName": "MindControlBuff.Description",
+      "English": "This creature has been mind controlled.",
+      "ProcessTemplates": true,
+      "Reason": "Current spelling is mind-controlled (hyphen)."
+    },
+    {
+      "Key": "1155469721b54b9b9051f1ec82c86da1",
+      "SimpleName": "MindControlImmunity.Description",
+      "English": "This creature cannot be mind controlled again.",
+      "ProcessTemplates": true,
+      "Reason": "Current source specifies immunity for 1 minute."
+    },
+    {
+      "Key": "1dc30cc4a58b49fe84e1ffb8ed31ce9c",
+      "SimpleName": "PerfectRoll.Description",
+      "English": "You navigate every conversation and fight with perfect accuracy. Every word is predicted; every action is foreseen. Your premonitions guide you on your quest, as if you have experienced this before...\nBenefit: You always {g|Encyclopedia:Dice}roll{/g} a 20 on all d20 rolls.",
+      "ProcessTemplates": false,
+      "Reason": "Current source is flat +5 bonus; no guaranteed20 effect."
+    },
+    {
+      "Key": "a297d896d71f4fd4a84f21e7a4d6cd52",
+      "SimpleName": "PerfectRollBuff.Description",
+      "English": "This character always {g|Encyclopedia:Dice}rolls{/g} 20 on all d20 rolls.",
+      "ProcessTemplates": false,
+      "Reason": "PerfectRoll now creates a feature only; this old buff is not created."
+    },
+    {
+      "Key": "3e3cc05ef2bb49c2bfb32f12642838d9",
+      "SimpleName": "PerfectRollBuff.Name",
+      "English": "Perfect Roll",
+      "ProcessTemplates": false,
+      "Reason": "PerfectRoll now creates a feature only; this old buff is not created."
+    },
+    {
+      "Key": "b26732daf3054d83b5775731d1bf84bd",
+      "SimpleName": "PowerLeveling.Description",
+      "English": "You are Overpowered but overly catious. You use overwhelming force to ensure all the enemies you kill are dead.\nBenefit: Enemies killed by you or by allies within 120 feet of you give double the amount of experience.",
+      "ProcessTemplates": false,
+      "Reason": "Current source no longer grants double experience; unconditional aura mechanics are translated."
+    },
+    {
+      "Key": "f6bd712c841f43a1b85ad7c7a11d0a3a",
+      "SimpleName": "SummonHaremAbility.Name",
+      "English": "Summon Harem",
+      "ProcessTemplates": false,
+      "Reason": "Current source names the ability Summon Exalted Choir."
+    },
+    {
+      "Key": "49e60f1750314fdc94a6712fa3e02e23",
+      "SimpleName": "SummonHaremFeature.Description",
+      "English": "As a full action, you summon a Succubus, a Nymph, an Astral Deva, and an Erinyes to aid you in battle.",
+      "ProcessTemplates": true,
+      "Reason": "Current feature describes three summons rather than four."
+    },
+    {
+      "Key": "2a96478b85b64313a7d2b549acf9081e",
+      "SimpleName": "SupremeBeing.Description",
+      "English": "You have forgotten the hardships of mortality and what sort of person you were before. Were you stupid? Were you weak? It matters no longer. Here in this new world, you are perfect.\nBenefit: All your attributes have at least a base value of 30.",
+      "ProcessTemplates": true,
+      "Reason": "Current source is base+5 plus activated scaling, not minimum base30."
+    },
+    {
+      "Key": "759bb74c1d044effa1ec7e2cac00304e",
+      "SimpleName": "ThoughtMaster.Description",
+      "English": "You gain a +1 bonus to your {g|Encyclopedia:Intelligence}Intelligence{/g} and {g|Encyclopedia:Wisdom}Wisdom{/g}.",
+      "ProcessTemplates": true,
+      "Reason": "Current source grants +4 Int/Wis and skill bonuses rather than +1."
+    },
+    {
+      "Key": "1cdc26fd2d2c420692c6f3d5d6ab6f6f",
+      "SimpleName": "TrainingMontage.Description",
+      "English": "After extensive training, you gain a +8 bonus to all attributes.",
+      "ProcessTemplates": true,
+      "Reason": "Current source replaced flat+8 with separate base and activated scaling components."
+    },
+    {
+      "Key": "08a9eff876064dfc862037242fa4faa9",
+      "SimpleName": "TruckKunFeature.Description",
+      "English": "Truck-kun is a menace of the streets, a killer that prowls the road before it smashes their victim so hard they get transported into another world. Many fear death brought by Truck-kun, but there are some who believe that their reincarnation will bring them into a harem paradise. Beware of the streets, and look at both sides of the road, or else you might be its latest victim.\nDomains: Artifice, Destruction, Repose, Travel\nFavoured Weapon: Heavy Shield Bash",
+      "ProcessTemplates": true,
+      "Reason": "Current introduction says new world rather than harem paradise."
+    },
+    {
+      "Key": "069b17c1eb054b1a9ac80ed840adfee7",
+      "SimpleName": "UnderpoweredAbilitySelection.Description",
+      "English": "Sometimes you just want to be reborn into a quiet life.",
+      "ProcessTemplates": true,
+      "Reason": "Current source contains an expanded quiet-life introduction."
+    },
+    {
+      "Key": "cd51eb39413546fbb7b20cf63c006af2",
+      "SimpleName": "UnlimitedPower.Description",
+      "English": "On the brink of defeat, the enemies have surrounded and exhausted you. Just as they are about to deliver the finishing blow, you get up and saying the following words: Not today.\nBenefit: As a free action, you restore all abilities and spell slots.",
+      "ProcessTemplates": false,
+      "Reason": "Current source restores spell slots as Standard action, not all abilities as Free action."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using IsekaiMod.Utilities;
 using Kingmaker;
 using Kingmaker.Blueprints;
@@ -140,68 +140,68 @@ namespace IsekaiMod.Content.Features.IsekaiProtagonist.OverpoweredAbility {
 
             if (roll == 1) {
                 string[] failureMessages = {
-            "Your gamble failed! No gold gained.",
-            "Your negotiation with a merchant guild fell apart when their leader accused you of favoritism. No gold gained.",
-            "A caravan of rare goods you invested in was destroyed by demon raiders. Your gamble failed.",
-            "Your attempt to fund a town's defenses in exchange for future profits backfired when the town rebelled. No gold gained.",
-            "The shipment of rare spices you financed was confiscated by corrupt officials. No profits this time.",
-            "An enchanted forge you invested in turned out to be cursed, leaving you with no returns.",
-            "Your trusted advisor made a disastrous trade deal on your behalf, losing all your capital. No gold gained.",
-            "An alchemical experiment you backed exploded spectacularly, leaving you with nothing but soot-stained robes.",
-            "The merchant caravan you tried to tax disappeared overnight, taking your investment with them. No gold gained.",
-            "The demons launched a surprise attack, destroying the grain reserves you planned to sell. Your gamble failed.",
-            "A rival faction sabotaged your plans to monopolize the holy relic market. No gold gained."
+            IsekaiMod.Localization.KoreanLocalization.Text("Your gamble failed! No gold gained."),
+            IsekaiMod.Localization.KoreanLocalization.Text("Your negotiation with a merchant guild fell apart when their leader accused you of favoritism. No gold gained."),
+            IsekaiMod.Localization.KoreanLocalization.Text("A caravan of rare goods you invested in was destroyed by demon raiders. Your gamble failed."),
+            IsekaiMod.Localization.KoreanLocalization.Text("Your attempt to fund a town's defenses in exchange for future profits backfired when the town rebelled. No gold gained."),
+            IsekaiMod.Localization.KoreanLocalization.Text("The shipment of rare spices you financed was confiscated by corrupt officials. No profits this time."),
+            IsekaiMod.Localization.KoreanLocalization.Text("An enchanted forge you invested in turned out to be cursed, leaving you with no returns."),
+            IsekaiMod.Localization.KoreanLocalization.Text("Your trusted advisor made a disastrous trade deal on your behalf, losing all your capital. No gold gained."),
+            IsekaiMod.Localization.KoreanLocalization.Text("An alchemical experiment you backed exploded spectacularly, leaving you with nothing but soot-stained robes."),
+            IsekaiMod.Localization.KoreanLocalization.Text("The merchant caravan you tried to tax disappeared overnight, taking your investment with them. No gold gained."),
+            IsekaiMod.Localization.KoreanLocalization.Text("The demons launched a surprise attack, destroying the grain reserves you planned to sell. Your gamble failed."),
+            IsekaiMod.Localization.KoreanLocalization.Text("A rival faction sabotaged your plans to monopolize the holy relic market. No gold gained.")
                 };
                 return failureMessages[random.Next(failureMessages.Length)];
             } else if (roll >= 2 && roll <= 10) {
                 goldAmount = UnityEngine.Random.Range(500, 1001);
                 string[] smallProfitMessages = {
-                    $"Your negotiation earned {goldAmount} gold.",
-                    $"Your investment in enchanted boots for scouts paid off slightly, earning {goldAmount} gold from increased efficiency.",
-                    $"A small-town blacksmith repaid your earlier support with a modest donation of {goldAmount} gold.",
-                    $"You taxed passing caravans at the borderlands, collecting {goldAmount} gold in tolls.",
-                    $"Your negotiation for better supply rates with a nearby town earned you {goldAmount} gold in savings.",
-                    $"You leased unused Crusader wagons to local traders, earning {goldAmount} gold.",
-                    $"An investment in portable holy water vials sold during a festival netted you {goldAmount} gold.",
-                    $"Your venture into selling Crusader-themed banners and souvenirs earned {goldAmount} gold.",
-                    $"You rented out a portion of your army’s barracks to traveling merchants, earning {goldAmount} gold.",
-                    $"A small alchemical workshop you funded paid back {goldAmount} gold in profits from potion sales."
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your negotiation earned {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your investment in enchanted boots for scouts paid off slightly, earning {0} gold from increased efficiency.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("A small-town blacksmith repaid your earlier support with a modest donation of {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You taxed passing caravans at the borderlands, collecting {0} gold in tolls.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your negotiation for better supply rates with a nearby town earned you {0} gold in savings.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You leased unused Crusader wagons to local traders, earning {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("An investment in portable holy water vials sold during a festival netted you {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your venture into selling Crusader-themed banners and souvenirs earned {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You rented out a portion of your army’s barracks to traveling merchants, earning {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("A small alchemical workshop you funded paid back {0} gold in profits from potion sales.", goldAmount)
                 };
                 return smallProfitMessages[random.Next(smallProfitMessages.Length)];
             } else if (roll >= 11 && roll <= 19) {
                 goldAmount = UnityEngine.Random.Range(1000, 5001);
                 string[] moderateProfitMessages = {
-                    $"You earned {goldAmount} gold in profits.",
-                    $"You struck a deal with a merchant guild to supply armor, earning {goldAmount} gold in commission.",
-                    $"Your investment in a town's brewery paid off handsomely, netting {goldAmount} gold in profits.",
-                    $"A clever trade route you devised bypassed demon patrols, bringing {goldAmount} gold into your coffers.",
-                    $"You negotiated a lucrative contract with alchemists for mass-producing healing potions, earning {goldAmount} gold.",
-                    $"A wealthy noble funded your Crusade efforts after you secured their town’s safety, donating {goldAmount} gold.",
-                    $"You implemented a new taxation system that brought {goldAmount} gold into the Crusade’s treasury.",
-                    $"An exclusive deal with a weaponsmith for enchanted weapons brought you {goldAmount} gold in returns.",
-                    $"A partnership with a city council to rebuild their defenses earned you {goldAmount} gold in shared profits.",
-                    $"Your foresight to invest in winter supplies early earned {goldAmount} gold in savings and profits.",
-                    $"A booming trade in enchanted Crusader cloaks brought {goldAmount} gold into the treasury."
+                    IsekaiMod.Localization.KoreanLocalization.Format("You earned {0} gold in profits.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You struck a deal with a merchant guild to supply armor, earning {0} gold in commission.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your investment in a town's brewery paid off handsomely, netting {0} gold in profits.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("A clever trade route you devised bypassed demon patrols, bringing {0} gold into your coffers.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You negotiated a lucrative contract with alchemists for mass-producing healing potions, earning {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("A wealthy noble funded your Crusade efforts after you secured their town’s safety, donating {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You implemented a new taxation system that brought {0} gold into the Crusade’s treasury.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("An exclusive deal with a weaponsmith for enchanted weapons brought you {0} gold in returns.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("A partnership with a city council to rebuild their defenses earned you {0} gold in shared profits.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your foresight to invest in winter supplies early earned {0} gold in savings and profits.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("A booming trade in enchanted Crusader cloaks brought {0} gold into the treasury.", goldAmount)
                 };
                 return moderateProfitMessages[random.Next(moderateProfitMessages.Length)];
             } else if (roll == 20) {
                 goldAmount = UnityEngine.Random.Range(50000, 100001);
                 string[] jackpotMessages = {
-                    $"Jackpot! You earned {goldAmount} gold.",
-                    $"You orchestrated a grand auction of rare relics, earning a staggering {goldAmount} gold.",
-                    $"Your deal with a merchant prince secured a massive donation of {goldAmount} gold for the Crusade.",
-                    $"A large-scale operation to reclaim a demon-infested mine yielded {goldAmount} gold in rare minerals.",
-                    $"You cornered the market on blessed weapons, earning an incredible {goldAmount} gold in profits.",
-                    $"Your political alliance with a wealthy kingdom resulted in a massive gift of {goldAmount} gold.",
-                    $"You persuaded an alchemical consortium to donate {goldAmount} gold after saving their laboratories from demons.",
-                    $"Your investment in a major city’s reconstruction efforts paid off spectacularly, earning {goldAmount} gold.",
-                    $"You sold the naming rights of a newly established fort, earning a colossal {goldAmount} gold.",
-                    $"Your Crusade-themed festival drew visitors from across the realm, bringing in {goldAmount} gold in revenues.",
-                    $"A wealthy benefactor, inspired by your leadership, donated {goldAmount} gold to the Crusade."
+                    IsekaiMod.Localization.KoreanLocalization.Format("Jackpot! You earned {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You orchestrated a grand auction of rare relics, earning a staggering {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your deal with a merchant prince secured a massive donation of {0} gold for the Crusade.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("A large-scale operation to reclaim a demon-infested mine yielded {0} gold in rare minerals.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You cornered the market on blessed weapons, earning an incredible {0} gold in profits.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your political alliance with a wealthy kingdom resulted in a massive gift of {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You persuaded an alchemical consortium to donate {0} gold after saving their laboratories from demons.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your investment in a major city’s reconstruction efforts paid off spectacularly, earning {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("You sold the naming rights of a newly established fort, earning a colossal {0} gold.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("Your Crusade-themed festival drew visitors from across the realm, bringing in {0} gold in revenues.", goldAmount),
+                    IsekaiMod.Localization.KoreanLocalization.Format("A wealthy benefactor, inspired by your leadership, donated {0} gold to the Crusade.", goldAmount)
                 };
                 return jackpotMessages[random.Next(jackpotMessages.Length)];
             } else {
-                return "Unexpected roll result.";
+                return IsekaiMod.Localization.KoreanLocalization.Text("Unexpected roll result.");
             }
         }
     }

@@ -1,4 +1,4 @@
-﻿using HarmonyLib;
+using HarmonyLib;
 using IsekaiMod.ModLogic;
 using Kingmaker.UI.Models.Log.CombatLog_ThreadSystem;
 using Kingmaker.UI.Models.Log.CombatLog_ThreadSystem.LogThreads.Common;
@@ -23,6 +23,9 @@ namespace IsekaiMod {
                 var harmony = new Harmony(modEntry.Info.Id);
                 IsekaiContext.ModEntry.OnSaveGUI = OnSaveGUI;
                 IsekaiContext.ModEntry.OnGUI = UMMSettingsUI.OnGUI;
+                Localization.KoreanLocalization.Register();
+                Localization.KoreanLocalization.Bind(IsekaiContext.ModLocalizationPack);
+                Localization.KoreanLocalization.Install(harmony);
                 harmony.PatchAll();
                 PostPatchInitializer.Initialize(IsekaiContext);
                 return true;

@@ -1,4 +1,10 @@
 # Isekai Mod
+
+> 한국어 번역 개발 브랜치입니다. 전체 번역 작성과 Astra-low 품질 검수를 마쳤으며, 게임 PC 참조를 확보하여 전체 모드 빌드도 통과했습니다.
+> 인게임 미검증 사전 릴리스입니다. ZIP 구성과 설치 주의 사항은 [한국어 안내](docs/README-ko.md)를 확인하세요. [진행 상태](docs/localization.md)와
+> [안전한 로컬 검증 방법](docs/build-and-validation.md)을 먼저 확인하세요.
+> 아래의 기존 빌드·설치 안내는 원본 프로젝트의 설명입니다.
+
 This is a content mod for `Pathfinder: Wrath of the Righteous` that adds an `Isekai Protagonist` Class into the game.
 This mod has been heavily modified and will continue to be modified. You can think of it as Isekai Protagonist 2.0.
 It currently compiles and runs with the latest version. If you run into issues please submit a bug report.

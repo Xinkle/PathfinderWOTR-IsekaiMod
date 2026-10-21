@@ -4,3 +4,9 @@ screenshots/
 .vs/
 lib/
 releases/
+
+.references/
+*.dll
+*.pdb
+__pycache__/
+dist/

@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <!-- Reuse the dnlib already embedded in the original project's pinned Aze package. -->
+    <Reference Include="Aze.Publicise.MSBuild.Task"><HintPath>../../packages/Aze.Publicise.MSBuild.Task.1.1.0/tasks/net46/Aze.Publicise.MSBuild.Task.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

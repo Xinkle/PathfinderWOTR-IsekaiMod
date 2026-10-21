@@ -1,0 +1,632 @@
+{
+  "SchemaVersion": 1,
+  "Provenance": "Read-only user-supplied existing game Korean translation; only short terminology records retained. Not a redistribution license determination.",
+  "SourceSHA256": {
+    "enGB.json": "6acaa571ed9ea837537be5cb21661cfcc3d2c860467da8dde6a3f249d0adb1d1",
+    "translation.json": "5918ddfe0f2c2cb8747a866af95a1abeda75045322b1ed16f4d62124dbe7c0e1"
+  },
+  "Entries": [
+    {
+      "English": "Cold Iron",
+      "Korean": "한철",
+      "SourceKey": "aead3835-1773-440e-86c5-ae99a535450e"
+    },
+    {
+      "English": "Frightened",
+      "Korean": "겁먹음",
+      "SourceKey": "5e8a1fa0-b285-4d34-8ca3-09357e3cab35"
+    },
+    {
+      "English": "Nauseated",
+      "Korean": "구토",
+      "SourceKey": "e3b1f1ca-01bd-4eb3-9558-36b97b08288a"
+    },
+    {
+      "English": "Sickened",
+      "Korean": "고통",
+      "SourceKey": "1e380374-75dc-4508-ac97-8fb88546807f"
+    },
+    {
+      "English": "Devastator",
+      "Korean": "멸절자",
+      "SourceKey": "ffc7b99d-368c-4cbe-a8bb-96306489dc0c"
+    },
+    {
+      "English": "Fauchard",
+      "Korean": "포샤드",
+      "SourceKey": "a25e50d0-6233-4e56-a21d-449e32fcfc39"
+    },
+    {
+      "English": "Dwarven Waraxe",
+      "Korean": "드워프 전투도끼",
+      "SourceKey": "e7deb91a-8bbd-4e5f-b731-1ed7a52804bf"
+    },
+    {
+      "English": "Warhammer",
+      "Korean": "전투망치",
+      "SourceKey": "dde2984d-effa-4bbf-92c6-ffde096a41f0"
+    },
+    {
+      "English": "Light Mace",
+      "Korean": "소형 철퇴",
+      "SourceKey": "9ae5be76-a817-4581-80b2-db9370c05b44"
+    },
+    {
+      "English": "Brown-Fur Transmuter",
+      "Korean": "브라운 퍼 트랜스뮤터",
+      "SourceKey": "4f91d493-9c73-4d31-8266-b3aa3c78a26b"
+    },
+    {
+      "English": "Eldritch Font",
+      "Korean": "엘드리치 폰트",
+      "SourceKey": "b362ffd6-41f4-42a3-bfb1-322828beaef5"
+    },
+    {
+      "English": "Metamagic (Bolster Spell)",
+      "Korean": "메타매직 (확산 주문)",
+      "SourceKey": "122bb556-4aff-4a4d-a900-a1554b252bd4"
+    },
+    {
+      "English": "Metamagic (Empower Spell)",
+      "Korean": "메타매직 (강화 주문)",
+      "SourceKey": "9f5a8e34-61e6-4fb6-9248-47809736f4bc"
+    },
+    {
+      "English": "Metamagic (Extend Spell)",
+      "Korean": "메타매직 (시간 연장 주문)",
+      "SourceKey": "fa82412d-3b6a-4ea2-bb8b-862f1515ae6d"
+    },
+    {
+      "English": "Metamagic (Maximize Spell)",
+      "Korean": "메타매직 (극대화 주문)",
+      "SourceKey": "bf4f53c6-2d56-4a57-9c63-f379479d53d1"
+    },
+    {
+      "English": "Metamagic (Reach Spell)",
+      "Korean": "메타매직 (사거리 연장 주문)",
+      "SourceKey": "5e6ae8dd-e6b7-4563-b083-f1edc6994d2b"
+    },
+    {
+      "English": "Metamagic (Quicken Spell)",
+      "Korean": "메타매직 (신속 주문)",
+      "SourceKey": "93dfb30b-970a-4b89-a0b6-7a037d085ed0"
+    },
+    {
+      "English": "Metamagic (Selective Spell)",
+      "Korean": "메타매직 (선택적 주문)",
+      "SourceKey": "3b9f29eb-bf05-40dc-b04c-48a3af40fdec"
+    },
+    {
+      "English": "Bardiche",
+      "Korean": "바디시",
+      "SourceKey": "fea1e713-9b3a-4da5-bc51-8cada5d2c4e2"
+    },
+    {
+      "English": "Bastard Sword",
+      "Korean": "바스타드 소드",
+      "SourceKey": "de008907-710d-4512-bf7b-f40b327b90ef"
+    },
+    {
+      "English": "Battleaxe",
+      "Korean": "전투도끼",
+      "SourceKey": "58b93a6f-bfa9-4780-bf63-08cfeae16694"
+    },
+    {
+      "English": "Club",
+      "Korean": "몽둥이",
+      "SourceKey": "24341be9-ad21-4456-b88b-0e52e20f4317"
+    },
+    {
+      "English": "Dagger",
+      "Korean": "단검",
+      "SourceKey": "d5b40349-ac66-43f5-aaef-27f4fc727b8d"
+    },
+    {
+      "English": "Dart",
+      "Korean": "다트",
+      "SourceKey": "74300a5a-b1a6-4b39-90e5-3d67ef442df6"
+    },
+    {
+      "English": "Double Axe",
+      "Korean": "양날도끼",
+      "SourceKey": "12cc8c21-b0c5-403c-bd7b-e7562b15ecdb"
+    },
+    {
+      "English": "Double Sword",
+      "Korean": "쌍날검",
+      "SourceKey": "ef643b9b-1d97-4092-8aa9-c063bbaf7b0b"
+    },
+    {
+      "English": "Dueling Sword",
+      "Korean": "결투용 검",
+      "SourceKey": "d64497cf-5cf7-4492-b3af-fd7edeee8cc5"
+    },
+    {
+      "English": "Elven Curved Blade",
+      "Korean": "엘프 곡도",
+      "SourceKey": "8879c2f1-85c4-40c4-b4ca-a6dbc51bfd05"
+    },
+    {
+      "English": "Estoc",
+      "Korean": "에스톡",
+      "SourceKey": "067b9995-abeb-4331-a270-ead63668b017"
+    },
+    {
+      "English": "Falcata",
+      "Korean": "팔카타",
+      "SourceKey": "b96f752a-98b1-453c-8ca2-791d01cab633"
+    },
+    {
+      "English": "Falchion",
+      "Korean": "펄션",
+      "SourceKey": "4b44cc9a-0175-43be-9566-9e85910031f4"
+    },
+    {
+      "English": "Flail",
+      "Korean": "도리깨",
+      "SourceKey": "ca41197e-16eb-4719-a5da-b6205e230b71"
+    },
+    {
+      "English": "Glaive",
+      "Korean": "글레이브",
+      "SourceKey": "3dead802-911e-4999-9162-1587dd205091"
+    },
+    {
+      "English": "Greataxe",
+      "Korean": "대형도끼",
+      "SourceKey": "69495e86-de2c-4aae-88e3-bc787da296fb"
+    },
+    {
+      "English": "Greatclub",
+      "Korean": "대형 몽둥이",
+      "SourceKey": "f3ce139f-5bf9-42df-a9e4-1aae55cb9a8e"
+    },
+    {
+      "English": "Greatsword",
+      "Korean": "대검",
+      "SourceKey": "6667b79f-8f55-44ac-b004-31864bbc6834"
+    },
+    {
+      "English": "Handaxe",
+      "Korean": "손도끼",
+      "SourceKey": "bf1957d6-b88c-4bc4-ad1f-00d5364edb50"
+    },
+    {
+      "English": "Heavy Crossbow",
+      "Korean": "대형 쇠뇌",
+      "SourceKey": "2ccae1e3-05fb-4470-a287-729a27054daa"
+    },
+    {
+      "English": "Heavy Flail",
+      "Korean": "대형 도리깨",
+      "SourceKey": "7f5b75c5-40df-482e-b2e2-ceaef242fa4d"
+    },
+    {
+      "English": "Heavy Mace",
+      "Korean": "중형 철퇴",
+      "SourceKey": "1e6a6e0c-0512-44b5-809e-715667de09dc"
+    },
+    {
+      "English": "Heavy Pick",
+      "Korean": "중형 곡괭이",
+      "SourceKey": "5e13c413-7e17-4fd3-b707-e2d6bd09fecc"
+    },
+    {
+      "English": "Javelin",
+      "Korean": "투창",
+      "SourceKey": "b066a49b-0702-4486-bf75-d1c92fd6ddaf"
+    },
+    {
+      "English": "Kama",
+      "Korean": "카마",
+      "SourceKey": "ea28ef5c-a65e-4371-9f21-4962ecf5fa7f"
+    },
+    {
+      "English": "Kukri",
+      "Korean": "쿠크리",
+      "SourceKey": "c7e42597-2c70-44eb-90ef-bdaec8b5cb6b"
+    },
+    {
+      "English": "Light Crossbow",
+      "Korean": "소형 쇠뇌",
+      "SourceKey": "f5492f3d-3228-4a32-b4f0-b22b5070d80e"
+    },
+    {
+      "English": "Light Hammer",
+      "Korean": "소형 망치",
+      "SourceKey": "a6b902ec-88e4-4f00-982a-35375a32817d"
+    },
+    {
+      "English": "Light Pick",
+      "Korean": "소형 곡괭이",
+      "SourceKey": "67d0d694-8505-4155-bdff-e22f8235ded2"
+    },
+    {
+      "English": "Longbow",
+      "Korean": "장궁",
+      "SourceKey": "7c03ddbe-8c65-4f91-acfd-712e158242c8"
+    },
+    {
+      "English": "Longspear",
+      "Korean": "장창",
+      "SourceKey": "d8f61a46-b394-4eb1-8c1b-714965b488c5"
+    },
+    {
+      "English": "Longsword",
+      "Korean": "장검",
+      "SourceKey": "ba3ed684-8235-46ff-8bd7-bab32a27985d"
+    },
+    {
+      "English": "Nunchaku",
+      "Korean": "쌍절곤",
+      "SourceKey": "b4ba5d90-3ea8-48c6-ba9a-c4548b5c30d5"
+    },
+    {
+      "English": "Punching Dagger",
+      "Korean": "주먹칼",
+      "SourceKey": "4bbdda3c-c1c9-4791-938a-b2f67d889c99"
+    },
+    {
+      "English": "Quarterstaff",
+      "Korean": "육척봉",
+      "SourceKey": "bad8b3f5-7551-4a0f-8225-eb43e8844d44"
+    },
+    {
+      "English": "Rapier",
+      "Korean": "레이피어",
+      "SourceKey": "d301d79c-a2d4-4070-a29a-11d975876e76"
+    },
+    {
+      "English": "Sai",
+      "Korean": "필가차",
+      "SourceKey": "390f7c20-f3b4-40db-b2cf-50a18ef5fdc3"
+    },
+    {
+      "English": "Scimitar",
+      "Korean": "시미터",
+      "SourceKey": "75ef6317-f1cb-4859-bde6-b0a1f5a1124b"
+    },
+    {
+      "English": "Scythe",
+      "Korean": "대낫",
+      "SourceKey": "3bcb14af-8013-47a2-b7f5-57a75e4e320c"
+    },
+    {
+      "English": "Shortbow",
+      "Korean": "단궁",
+      "SourceKey": "31e2cb84-1a2d-49a0-8d28-af602e1d954e"
+    },
+    {
+      "English": "Shortspear",
+      "Korean": "단창",
+      "SourceKey": "8c56c7bd-bd40-4f17-8605-30779f46fbe4"
+    },
+    {
+      "English": "Shortsword",
+      "Korean": "소검",
+      "SourceKey": "3b541b41-61fc-4f59-8fbd-734f6f3e8966"
+    },
+    {
+      "English": "Sickle",
+      "Korean": "낫",
+      "SourceKey": "0a502428-837d-4bc6-b938-fb61720f4e58"
+    },
+    {
+      "English": "Spear",
+      "Korean": "창",
+      "SourceKey": "4d7d79e6-ea7b-406e-999f-6f7fae3d0192"
+    },
+    {
+      "English": "Starknife",
+      "Korean": "스타나이프",
+      "SourceKey": "8613589d-c0ee-4069-90cf-276c4b73c64d"
+    },
+    {
+      "English": "Throwing Axe",
+      "Korean": "투척 도끼",
+      "SourceKey": "cef21506-37b3-4506-b6b4-771ad2da2144"
+    },
+    {
+      "English": "Tongi",
+      "Korean": "통기",
+      "SourceKey": "f3299b0b-4c19-4219-a3c3-fbb2f5c32951"
+    },
+    {
+      "English": "Trident",
+      "Korean": "삼지창",
+      "SourceKey": "c641ed0c-67f2-4837-8869-1362334ce67f"
+    },
+    {
+      "English": "Resist Energy",
+      "Korean": "에너지 저항",
+      "SourceKey": "ecd2f181-05fd-4196-9f35-f9657c1e906b"
+    },
+    {
+      "English": "Protection from Energy",
+      "Korean": "에너지로부터 보호",
+      "SourceKey": "caec5520-9a11-4f28-ac74-019d90bad602"
+    },
+    {
+      "English": "Protection from Arrows",
+      "Korean": "화살로부터 보호",
+      "SourceKey": "cefb7f66-499f-4b49-907a-07712f359683"
+    },
+    {
+      "English": "Haste",
+      "Korean": "가속",
+      "SourceKey": "df18dc7b-5980-4106-a765-559c35ccfdb8"
+    },
+    {
+      "English": "Mage Armor",
+      "Korean": "마법사의 갑옷",
+      "SourceKey": "663dc4a6-f79d-45d9-a91a-917a3140dc51"
+    },
+    {
+      "English": "Shield",
+      "Korean": "방패",
+      "SourceKey": "2b7d794c-310c-4d8b-ad18-ae33c2489daa"
+    },
+    {
+      "English": "Shield of Faith",
+      "Korean": "신념의 방패",
+      "SourceKey": "466d7328-8d76-427d-ab06-f3743647ed87"
+    },
+    {
+      "English": "Veil of Heaven",
+      "Korean": "천상의 장막",
+      "SourceKey": "8a076374-4408-48f7-abda-f93617f9ed24"
+    },
+    {
+      "English": "Veil of Positive Energy",
+      "Korean": "양에너지의 장막",
+      "SourceKey": "6c73afb5-d614-4a3f-94de-f8101d4203cc"
+    },
+    {
+      "English": "Blur",
+      "Korean": "흐릿한 형체",
+      "SourceKey": "04360c1a-a19d-468e-89e5-e07b4a6c3ade"
+    },
+    {
+      "English": "Bull's Strength",
+      "Korean": "황소의 힘",
+      "SourceKey": "dc991e0a-072a-4ce1-ab4b-5ad5e2d9f9a0"
+    },
+    {
+      "English": "Cat's Grace",
+      "Korean": "고양이의 우아함",
+      "SourceKey": "b68794fa-9faf-4b90-bca6-cbeefc4b31b9"
+    },
+    {
+      "English": "Bear's Endurance",
+      "Korean": "곰의 지구력",
+      "SourceKey": "a4dc7e2e-fc16-45a3-85b4-f6b754c6a716"
+    },
+    {
+      "English": "Fox's Cunning",
+      "Korean": "여우의 교활함",
+      "SourceKey": "ae78f5fa-4876-437f-87a6-5ca4d7a3c589"
+    },
+    {
+      "English": "Owl's Wisdom",
+      "Korean": "올빼미의 지혜",
+      "SourceKey": "45b12504-74e8-44d3-84c8-7368e3cdb56f"
+    },
+    {
+      "English": "Eagle's Splendor",
+      "Korean": "독수리의 위엄",
+      "SourceKey": "c3f2ce65-41be-4fdb-9918-d262eddc9fc1"
+    },
+    {
+      "English": "Mirror Image",
+      "Korean": "거울상",
+      "SourceKey": "46c2cec1-f4d9-4d62-827f-3c8ab6a02998"
+    },
+    {
+      "English": "False Life",
+      "Korean": "거짓 생명",
+      "SourceKey": "145f6b39-ef78-47b7-8572-7973a62e67b8"
+    },
+    {
+      "English": "Barkskin",
+      "Korean": "나무껍질",
+      "SourceKey": "0c0bcffb-35ff-48e0-bc03-87a375c2aac8"
+    },
+    {
+      "English": "Aid",
+      "Korean": "지원",
+      "SourceKey": "1a998b9e-4b32-478a-a8d4-b76f1d6b20d8"
+    },
+    {
+      "English": "Protection from Evil",
+      "Korean": "악으로부터 보호",
+      "SourceKey": "da701a00-4092-4689-8ddd-7bb8ca90b75a"
+    },
+    {
+      "English": "Bestow Grace",
+      "Korean": "은총 부여",
+      "SourceKey": "143b13cb-8e09-41a3-b2fd-b1c01aa07a09"
+    },
+    {
+      "English": "Aura of Greater Courage",
+      "Korean": "상급 용기의 오라",
+      "SourceKey": "6ed42b72-f2f5-46ad-a59b-dc60984c08aa"
+    },
+    {
+      "English": "Displacement",
+      "Korean": "환위",
+      "SourceKey": "90742439-d796-4817-94b7-d4867c56a6ac"
+    },
+    {
+      "English": "Magical Vestment",
+      "Korean": "마법의 예복",
+      "SourceKey": "50537553-e2df-45d3-b475-004a449000e3"
+    },
+    {
+      "English": "Delay Poison",
+      "Korean": "독 지연",
+      "SourceKey": "a4770b0f-a7af-4316-b71b-056d6a1dccd9"
+    },
+    {
+      "English": "Stoneskin",
+      "Korean": "돌가죽",
+      "SourceKey": "fc6548c8-663d-42b1-81f7-a14d8344de61"
+    },
+    {
+      "English": "Death Ward",
+      "Korean": "죽음 방호",
+      "SourceKey": "14bb9884-60b0-45e3-a7ac-ec007813ce3b"
+    },
+    {
+      "English": "Freedom of Movement",
+      "Korean": "이동의 자유",
+      "SourceKey": "f9d59f46-64e9-4eb2-b219-6bec0337a32c"
+    },
+    {
+      "English": "False Life, Greater",
+      "Korean": "거짓 생명, 상급",
+      "SourceKey": "77a07d40-7622-4911-bdea-ed2ffbab0727"
+    },
+    {
+      "English": "Burst of Glory",
+      "Korean": "피어나는 영광",
+      "SourceKey": "553bb883-e69e-4b00-9d50-cb448930f1e9"
+    },
+    {
+      "English": "Spell Resistance",
+      "Korean": "주문 저항",
+      "SourceKey": "32584258-12f6-4c30-a0e0-aa0f18105e79"
+    },
+    {
+      "English": "Eaglesoul",
+      "Korean": "독수리의 혼",
+      "SourceKey": "3f4ebf3d-df81-41cf-966c-f9e210f62090"
+    },
+    {
+      "English": "Legendary Proportions",
+      "Korean": "전설적인 크기",
+      "SourceKey": "54c9443f-5d3e-47f7-b61e-7b211e72a5e9"
+    },
+    {
+      "English": "Frightful Aspect",
+      "Korean": "무시무시한 형상",
+      "SourceKey": "3bc181d4-ed2b-41a2-a1bc-0ad80da00311"
+    },
+    {
+      "English": "Seamantle",
+      "Korean": "바다의 망토",
+      "SourceKey": "6d7b2275-6ad3-46f8-9217-7935fd9189eb"
+    },
+    {
+      "English": "Foresight",
+      "Korean": "미래시",
+      "SourceKey": "47d00e6d-12e4-423a-a9a8-973abbe22e33"
+    },
+    {
+      "English": "Unbreakable Heart",
+      "Korean": "꺾이지 않는 마음",
+      "SourceKey": "1c039356-5653-4878-8cd8-8c56fb40ba58"
+    },
+    {
+      "English": "Remove Fear",
+      "Korean": "공포 제거",
+      "SourceKey": "0a4d2b48-ccac-4a52-8e13-6755abbdf058"
+    },
+    {
+      "English": "Divine Favor",
+      "Korean": "신성한 은혜",
+      "SourceKey": "ac6c8ecb-07ea-4e8a-8554-c7a3f851bc35"
+    },
+    {
+      "English": "Magic Fang",
+      "Korean": "마법 송곳니",
+      "SourceKey": "bb033b22-2309-49cb-a16f-fdade9dc6c37"
+    },
+    {
+      "English": "Align Weapon",
+      "Korean": "성향 무기",
+      "SourceKey": "37739c2d-f007-4fd2-9cbf-875ef73776bf",
+      "DisplayKorean": "성향 무기 (선)",
+      "DisplayNote": "Good alignment qualifier added from AlignWeaponGoodBuff; native base name is unchanged."
+    },
+    {
+      "English": "Crusader's Edge",
+      "Korean": "성전사의 칼날",
+      "SourceKey": "d3e6b690-3cb2-497b-b484-759c612bc5e7"
+    },
+    {
+      "English": "Magic Weapon, Greater",
+      "Korean": "상급 마법 무기",
+      "SourceKey": "02cb7c69-0ef3-4ca3-8191-ec1f36dbac84"
+    },
+    {
+      "English": "Divine Power",
+      "Korean": "신성한 힘",
+      "SourceKey": "a391d104-c480-4fc1-97c7-63d7df2b85a0"
+    },
+    {
+      "English": "True Seeing",
+      "Korean": "진실의 시야",
+      "SourceKey": "c4322851-48fe-4dd1-a303-8072050da6b5"
+    },
+    {
+      "English": "Shield of Law",
+      "Korean": "질서의 방패",
+      "SourceKey": "c3e4c742-3330-4bd7-b0ef-ce66fd345c64"
+    },
+    {
+      "English": "Angelic Aspect, Greater",
+      "Korean": "엔젤의 형상, 상급",
+      "SourceKey": "f44715de-c76d-4ee2-a0ae-be210f487766"
+    },
+    {
+      "English": "Winds of Vengeance",
+      "Korean": "복수의 돌풍",
+      "SourceKey": "49601dba-445f-49c2-89af-ac49605f9192"
+    },
+    {
+      "English": "Hurricane Bow",
+      "Korean": "태풍의 활",
+      "SourceKey": "9a9167b1-cc62-4216-a80e-5b2bca21ab3a"
+    },
+    {
+      "English": "Sense Vitals",
+      "Korean": "급소 감지",
+      "SourceKey": "2f8cdb5a-4f0f-4e11-86d6-17f319a224bc"
+    },
+    {
+      "English": "Heroism, Greater",
+      "Korean": "영웅심, 상급",
+      "SourceKey": "928b928f-c5d9-455f-b04c-7fe05d323d03"
+    },
+    {
+      "English": "Echolocation",
+      "Korean": "반향",
+      "SourceKey": "2841e7ec-03ad-42bc-a982-75ad037b4198"
+    },
+    {
+      "English": "Life Bubble",
+      "Korean": "생명 거품",
+      "SourceKey": "cdd7cf2d-aae0-4e97-b5af-1ef809be46dd"
+    },
+    {
+      "English": "Protection from Spells",
+      "Korean": "주문으로부터 보호",
+      "SourceKey": "2737a5e9-2f84-41a7-939d-56962964abe9"
+    },
+    {
+      "English": "Mind Blank",
+      "Korean": "정신 비우기",
+      "SourceKey": "47e3cd4a-667e-432c-9cb2-7c43b5aed3aa"
+    },
+    {
+      "English": "Heroic Invocation",
+      "Korean": "영웅심 강신",
+      "SourceKey": "c07b433c-51ff-43de-9ff9-91e1498578e7"
+    },
+    {
+      "English": "Earth Breaker",
+      "Korean": "지진망치",
+      "SourceKey": "6db0bd68-7267-4afb-8a69-13dc7bfdb458"
+    }
+  ]
+}

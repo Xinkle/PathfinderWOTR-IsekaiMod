@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Independent, local-only build: never imports legacy Publicise/robocopy targets. -->
+  <PropertyGroup>
+    <TargetFramework>net481</TargetFramework><LangVersion>9</LangVersion>
+    <AssemblyName>IsekaiMod</AssemblyName><RootNamespace>IsekaiMod</RootNamespace>
+    <EnableDefaultItems>false</EnableDefaultItems><AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Version>5.4.4</Version><AssemblyVersion>5.4.4.0</AssemblyVersion><FileVersion>5.4.4.0</FileVersion>
+    <GameReferencesPath Condition="'$(GameReferencesPath)' == '' And Exists('$(MSBuildThisFileDirectory).references/game/Assembly-CSharp.dll')">$(MSBuildThisFileDirectory).references/game</GameReferencesPath>
+    <GameReferencesPath Condition="'$(GameReferencesPath)' == ''">$(MSBuildThisFileDirectory)../WOTR-Enhance/.references/game</GameReferencesPath>
+    <GameAssemblyPath Condition="'$(GameAssemblyPath)' == ''">$(GameReferencesPath)/Assembly-CSharp.dll</GameAssemblyPath>
+    <TTTCorePath Condition="'$(TTTCorePath)' == '' And Exists('$(GameReferencesPath)/TabletopTweaks-Core.dll')">$(GameReferencesPath)/TabletopTweaks-Core.dll</TTTCorePath>
+    <TTTCorePath Condition="'$(TTTCorePath)' == ''">/tmp/wotr-ttt-integration/TabletopTweaks-Core.dll</TTTCorePath>
+    <NoWarn>0649</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="IsekaiMod/**/*.cs" Exclude="IsekaiMod/obj/**;IsekaiMod/bin/**" />
+    <Reference Include="$(GameReferencesPath)/*.dll" Exclude="$(GameReferencesPath)/Assembly-CSharp.dll;$(GameReferencesPath)/TabletopTweaks-Core.dll"><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>$(GameAssemblyPath)</HintPath><Private>false</Private></Reference>
+    <Reference Include="$(AdditionalGameReferencesPath)/*.dll" Exclude="$(AdditionalGameReferencesPath)/Assembly-CSharp.dll;$(AdditionalGameReferencesPath)/TabletopTweaks-Core.dll" Condition="'$(AdditionalGameReferencesPath)' != ''"><Private>false</Private></Reference>
+    <Reference Include="TabletopTweaks-Core"><HintPath>$(TTTCorePath)</HintPath><Private>false</Private></Reference>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="All" />
+    <EmbeddedResource Include="IsekaiMod/Config/*.json"><LogicalName>IsekaiMod.Config.%(Filename)%(Extension)</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="IsekaiMod/Localization/LocalizationPack.json"><LogicalName>IsekaiMod.Localization.LocalizationPack.json</LogicalName></EmbeddedResource>
+    <None Include="IsekaiMod/Info.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

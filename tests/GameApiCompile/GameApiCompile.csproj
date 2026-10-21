@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net481</TargetFramework><LangVersion>9</LangVersion><EnableDefaultCompileItems>false</EnableDefaultCompileItems><NoWarn>0649</NoWarn>
+    <GameReferencesPath Condition="'$(GameReferencesPath)' == ''">$(MSBuildThisFileDirectory)../../../WOTR-Enhance/.references/game</GameReferencesPath>
+    <TTTCorePath Condition="'$(TTTCorePath)' == ''">/tmp/wotr-ttt-integration/TabletopTweaks-Core.dll</TTTCorePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../IsekaiMod/Localization/*.cs" /><Compile Include="../../IsekaiMod/UMMSettingsUI.cs" />
+    <Compile Include="Main.cs" /><Compile Include="../../IsekaiMod/ModLogic/ModContextBase.cs" />
+    <Compile Include="../../IsekaiMod/Config/AddedContent.cs" /><Compile Include="StaticReferences.cs" />
+    <Reference Include="$(GameReferencesPath)/*.dll"><Private>false</Private></Reference>
+    <Reference Include="TabletopTweaks-Core"><HintPath>$(TTTCorePath)</HintPath><Private>false</Private></Reference>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="All" />
+  </ItemGroup>
+</Project>

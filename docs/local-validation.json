@@ -1,0 +1,247 @@
+{
+  "Date": "2026-10-21",
+  "Baseline": "e4d5ac3bf57c9b644fe5d1000e69a5a6ed1a26df",
+  "Candidate": "localization/ko-kr; version 5.4.4; exact release commit recorded in dist manifest",
+  "References": [
+    {
+      "File": "/home/xinkle/code/WOTR-Enhance/.references/game/Assembly-CSharp.dll",
+      "Name": "Assembly-CSharp",
+      "Version": "0.0.0.0",
+      "SHA256": "2cb7160b7154d4ffacc77b9c51b1eb26199e1294300f04fdfc073367b2ef8953"
+    },
+    {
+      "File": "/home/xinkle/code/WOTR-Enhance/.references/game/0Harmony.dll",
+      "Name": "0Harmony",
+      "Version": "2.3.6.0",
+      "SHA256": "df043f05c6e43602fa8e8f38f52a3a2cf962aab7a65a9d85573ea25f01a63e80"
+    },
+    {
+      "File": "/tmp/wotr-ttt-integration/TabletopTweaks-Core.dll",
+      "Name": "TabletopTweaks-Core",
+      "Version": "1.0.0.0",
+      "SHA256": "aba06b62e8433febb57f9a703bfe5224ad1063676729fca8263644a3b3f535b0"
+    }
+  ],
+  "ReferenceVersionBoundary": "TTT assembly version 1.0.0.0 does not establish its UMM mod version; exact DLL hash/API checked. Requirement remains 0.6.2. Game cache provenance is described in sibling doc/build.md; current installed game was not queried.",
+  "PythonUnitTests": {
+    "Result": "passed",
+    "Count": 16,
+    "Breakdown": {
+      "Localization": 11,
+      "Packaging": 5
+    }
+  },
+  "Catalog": {
+    "Entries": 819,
+    "UIAndMessages": 85,
+    "MerchantMessages": 44,
+    "SourceCalls": 770,
+    "FactoryCalls": 135,
+    "OriginalPackRows": 818,
+    "CurrentPackRows": 785,
+    "ReviewedObsoleteRows": 33,
+    "NewOrChangedIdentities": 35,
+    "NativeGlossaryEntries": 124,
+    "Boundary": "Static source and bounded wrapper reconstruction, including optional branches; not observed Unity runtime registration."
+  },
+  "HarmonyModelTests": {
+    "Result": "passed",
+    "HarmonyPackage": "2.3.6",
+    "Boundary": "small API model; not real Unity or real TTT execution",
+    "CatalogEntries": 819,
+    "AdditionalChecks": [
+      "Isekai pack ownership isolation",
+      "KoreanTranslationOverride coexistence model",
+      "later XinkleWotrEnhance Last-priority postfix coexistence model",
+      "English index retention and dynamic Korean display",
+      "nested/exception/thread-local guard restoration",
+      "cache reset without GUID proliferation"
+    ]
+  },
+  "ActualApiCompile": {
+    "Result": "passed",
+    "Warnings": 0,
+    "Errors": 0,
+    "Project": "tests/GameApiCompile",
+    "Boundary": "production localization/UI/settings/context; stand-in Main and StaticReferences; separate partial test, alongside independently successful full mod build"
+  },
+  "FullBuild": {
+    "Result": "passed",
+    "ExitCode": 0,
+    "Warnings": 0,
+    "Errors": 0,
+    "Command": "scripts/dotnet.sh build IsekaiMod.Local.csproj -t:Rebuild -c Release --nologo",
+    "ReferenceMode": "Own ignored .references/game overlay; current game-PC Assembly-CSharp publicized locally; actual installed TTT; fetched Validation and Astar; other 13 cached DLLs remote SHA256 verified",
+    "GamePCSteamBuildId": "20204175",
+    "InitialFailedAttempts": {
+      "Result": "failed",
+      "BaselineExitCode": 1,
+      "CandidateExitCode": 1,
+      "ReportedErrorsEach": 18,
+      "IdenticalDistinctErrorMessages": [
+        "CS0122: 'BlueprintAbilityAreaEffect.TargetType' is inaccessible due to its protection level",
+        "CS0246: The type or namespace name 'ValidationContext' could not be found (are you missing a using directive or an assembly reference?)",
+        "CS0507: 'AddStatBonusIfNotHasFact.OnTurnOff()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, EmptyComponentData>.OnTurnOff()'",
+        "CS0507: 'AddStatBonusIfNotHasFact.OnTurnOn()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, EmptyComponentData>.OnTurnOn()'",
+        "CS0507: 'ArmorNoSpeedPenalty.OnTurnOff()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, EmptyComponentData>.OnTurnOff()'",
+        "CS0507: 'ArmorNoSpeedPenalty.OnTurnOn()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, EmptyComponentData>.OnTurnOn()'",
+        "CS0507: 'PrerequisiteIsMainCharacter.CheckInternal(FeatureSelectionState, UnitDescriptor, LevelUpState)': cannot change access modifiers when overriding 'protected' inherited member 'Prerequisite.CheckInternal(FeatureSelectionState, UnitDescriptor, LevelUpState)'",
+        "CS0507: 'PrerequisiteIsMainCharacter.GetUITextInternal(UnitDescriptor)': cannot change access modifiers when overriding 'protected' inherited member 'Prerequisite.GetUITextInternal(UnitDescriptor)'",
+        "CS0507: 'ScalingStatBonus.OnActivate()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, EmptyComponentData>.OnActivate()'",
+        "CS0507: 'ScalingStatBonus.OnDeactivate()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, EmptyComponentData>.OnDeactivate()'",
+        "CS0507: 'SetAttackerAutoMiss.Runtime.OnTurnOff()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponent.OnTurnOff()'",
+        "CS0507: 'SetAttackerAutoMiss.Runtime.OnTurnOn()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponent.OnTurnOn()'",
+        "CS0507: 'SetBaseStat.OnActivate()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, SetBaseStat.ComponentData>.OnActivate()'",
+        "CS0507: 'SetBaseStat.OnDeactivate()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, SetBaseStat.ComponentData>.OnDeactivate()'",
+        "CS0507: 'SetBaseStat.OnTurnOff()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, SetBaseStat.ComponentData>.OnTurnOff()'",
+        "CS0507: 'SetBaseStat.OnTurnOn()': cannot change access modifiers when overriding 'protected' inherited member 'EntityFactComponentDelegate<UnitEntityData, SetBaseStat.ComponentData>.OnTurnOn()'"
+      ],
+      "Boundary": "original source and candidate fail with same currently surfaced diagnostics; later-stage errors may remain",
+      "ArchiveReferenceRetry": {
+        "Result": "failed",
+        "ReportedErrors": 1,
+        "RemainingError": "CS0246: ValidationContext could not be found",
+        "Input": "pre-existing tracked PathfinderWOTR-IsekaiMod.zip; extracted to /tmp only",
+        "ReferenceSHA256": {
+          "lib/Assembly-CSharp.dll": "80528c6f66478538e74cafbf9e3dbd56a0a426d8212f8c2a9154690d9a60e3fe",
+          "lib/TabletopTweaks-Core.dll": "ba8fc5006ea3f79f7f3c0a93864957c9ea700c94676ff452dd98bcf89f8077d3"
+        },
+        "Boundary": "Archived reference version compatibility not established; not a valid full mod build. No fake validation stub supplied."
+      },
+      "InstallableCandidateProduced": false
+    },
+    "Boundary": "Compilation only; not packaged, installed, Unity-loaded or game-verified.",
+    "Output": {
+      "Path": "bin/Release/net481/IsekaiMod.dll",
+      "AssemblyName": "IsekaiMod",
+      "AssemblyVersion": "5.4.4.0",
+      "InfoVersion": "5.4.4",
+      "SHA256": "4d16de9d25ef39261c6e08dbaba7ef5853561113cf4035af71f48963033c3351",
+      "Bytes": 1772544
+    },
+    "InstallablePackageProduced": false
+  },
+  "Mutations": [
+    {
+      "Mutation": "lookup-guard",
+      "Rejected": true,
+      "ExitCode": 1,
+      "Failure": "System.Exception: English index before apply"
+    },
+    {
+      "Mutation": "display-restoration",
+      "Rejected": true,
+      "ExitCode": 1,
+      "Failure": "System.Exception: dynamic publish"
+    }
+  ],
+  "Deployment": "not performed",
+  "GameExecution": "not performed",
+  "GitCommitPush": "authorized by user for Korean fork release; final commit recorded in distribution manifest",
+  "XyncLogging": "not approved; not performed",
+  "SourceSHA256": {
+    "IsekaiMod/Localization/KoreanLocalization.cs": "aff0d1b0995bc9fe0221fe95dc3fb8596a048ae8e282aa3e01ad7f7e0b25fb0e",
+    "IsekaiMod/Localization/KoreanTranslationData.cs": "14849aac3cd08e973725c952696bfe6d3a27cd96c0c4f63602d351a2ccf892ec",
+    "localization/ko-kr.json": "6f05197e959cc4229809979df07da87de0531dd964a0546d7aa82ac447f01307",
+    "localization/runtime-targets.json": "1fd905a812a955c1a656eb1faa2b5242ac03a9c785aa88fdf4cfc5ea042cb3dd",
+    "localization/source-audit.json": "2385b967d52b74d43e011db9b514bb1519db327e68358242ae78a7f7103d12d1",
+    "localization/glossary.json": "06ad79ffa3e338d9cf81489a87420811ab5707310128c746ae8aea0cb62fe74c",
+    "IsekaiMod/UMMSettingsUI.cs": "96504144463bae7dd4d45a964a095b098ec321d75f10647473a009b8be4fa3c2",
+    "IsekaiMod/Main.cs": "b238ef58356d6392b34b0b726e73ed54e5ef3d569b917fa1f04c111cba2cf4a6",
+    "IsekaiMod/Info.json": "84930d01083bcc693900753d3f55722df5663df861b1e96c7ea8ef04236f7ebd",
+    "IsekaiMod/Properties/AssemblyInfo.cs": "af4c4b3c9ac13f78a373e5299e28117b82456d8ae1fae84a91ddc2a37f310574",
+    "IsekaiMod.Local.csproj": "f46f35aaaca3d380649e78e8e16675a4e8406da447060d582d1a57e753fac1d2",
+    "scripts/localization.py": "65f13319b7887372cf848cb5c7d352d3567367c92ea1cf6defae31cd8e5ff150",
+    "scripts/source_catalog.py": "c57404e32999d77e2283988ce5ab9cc23bba5dd537dccf98797b2028e7802906",
+    "scripts/LocalizationInventory/Program.cs": "ace06e327fbe153b0c3d2093e1a0924f7e5241b86a0abcc6202d7fd7b8283e00",
+    "tests/test_localization.py": "51e1a7a0a73d5d0b300a527fc6f13d04db07d49f143daf6ff52c463739be0f14",
+    "tests/LocalizationHarness/Program.cs": "dcd5763f95409a61b384c00e6a219302993ea5be1576a67e68ef1f6ea5952704",
+    "docs/reviews/astra-low-pass1.md": "defdb729995c91440b3d2c46e97fa8fec080af1213f8490a6e51c3eda0c19035",
+    "docs/reviews/astra-low-pass2.md": "30cf9ed2db9c442a916d05bd86f79b854ed3e69bc64310cc73ce01e170dcb8b4",
+    "docs/reviews/astra-low-pass3.md": "755bc72b8a2f9b8e921ad773e7b95d9a001eb1278e0533d8557682b180981a43",
+    "scripts/PublicizeReferences/Program.cs": "beef06152f8a9fc56466b3e3b40b42c5c9fd3c109b40fa44ad9af366b372b008",
+    "scripts/PublicizeReferences/PublicizeReferences.csproj": "565715d7d8805ca0a8ec429f8e08164e2ff763e3c7c552d1a7cb434f04425683",
+    "docs/reviews/astra-low-build-followup.md": "0a86ff4d728eb2139ec9158648a2137826dfee6bbe2c926e7b378d4d281d2bd6",
+    "scripts/package.py": "53ae37d1b16b3597a963642fe88ade317449f6dfb5262e4f33f223e198d81973",
+    "tests/test_package.py": "6134b93cb895c18cc0c9af8f9b36cf039bc07871f10ab25c2dfbbc2297f90388",
+    "docs/reviews/astra-low-release-followup.md": "f30cf7a5f0f54d2baca3cfd3b4ed1bde04a41468369ebab9731a331e252497f3"
+  },
+  "Status": "Translation implementation, Astra-low quality review and full mod build complete; user-authorized ZIP prerelease preparation; not installed or game-verified",
+  "QualityReview": {
+    "Model": "gpt-6-astra",
+    "ReasoningEffort": "low",
+    "Passes": 3,
+    "Result": "approved for translation quality",
+    "OpenFindings": 0,
+    "EnhanceUniqueSamples": 29,
+    "NativeGlossaryEntries": 124,
+    "Reports": [
+      "docs/reviews/astra-low-pass1.md",
+      "docs/reviews/astra-low-pass2.md",
+      "docs/reviews/astra-low-pass3.md"
+    ],
+    "FinalTargetedCheck": "MindControl.SavingThrow: no saving-throw action in source; 내성 없음 approved",
+    "Boundary": "Comparable to reviewed WOTR-Enhance samples, not a claim to have reread all 1637 Enhance entries; not runtime or full-build approval.",
+    "BuildFollowup": "docs/reviews/astra-low-build-followup.md",
+    "BuildFollowupResult": "no blocking findings; CreateNew fix confirmed; general duplicate references remain a documented limitation",
+    "ReleaseFollowup": "docs/reviews/astra-low-release-followup.md",
+    "ReleaseFollowupResult": "Both findings resolved; reviewer ran five packaging unit tests; no blocking findings. Actual package execution follows source commit."
+  },
+  "FinalLocalizationVerification": {
+    "Command": "scripts/verify.sh",
+    "ExitCode": 0,
+    "PythonTests": 16,
+    "HarmonyHarness": "passed",
+    "ActualApiCompileWarnings": 0,
+    "ActualApiCompileErrors": 0,
+    "GitDiffCheck": "passed",
+    "FullBuild": "passed, 0 warnings, 0 errors"
+  },
+  "RemoteReferenceCollection": {
+    "Date": "2026-10-21",
+    "Mode": "User-authorized SSH read-only listing/hash inspection and downloads only",
+    "ConnectionSource": "Xync vault: Tailscale 노드별 접속 가이드",
+    "Downloaded": [
+      "Owlcat.Runtime.Validation.dll",
+      "AstarPathfindingProject.dll",
+      "Assembly-CSharp.dll",
+      "TabletopTweaks-Core.dll"
+    ],
+    "RemoteLocalHashesMatched": true,
+    "ExistingCacheDLLHashesVerified": 13,
+    "RemoteWrites": false,
+    "PrivateManifest": ".references/manifest.json",
+    "ProprietaryFilesTrackedOrDistributed": false
+  },
+  "PublicizedReference": {
+    "InputSHA256": "2cb7160b7154d4ffacc77b9c51b1eb26199e1294300f04fdfc073367b2ef8953",
+    "OutputSHA256": "3b3091cd4d460d0e0a11a2351d5af2ad901c7e68df1c61dc6df1a59f8e2e28f7",
+    "Types": 15604,
+    "Methods": 82209,
+    "Fields": 58444,
+    "Policy": "PubliciseCompilerGenerated=true; local compile reference only; do not deploy"
+  },
+  "NewlyResolvedReferences": [
+    {
+      "File": "/home/xinkle/code/PathfinderWOTR-IsekaiMod/.references/gamepc-2026-10-21/Owlcat.Runtime.Validation.dll",
+      "Name": "Owlcat.Runtime.Validation",
+      "Version": "0.0.0.0",
+      "SHA256": "3a3e913f56ba647a4efd2463282823ace7b507939b7b6b767a8f91982fed54e0"
+    },
+    {
+      "File": "/home/xinkle/code/PathfinderWOTR-IsekaiMod/.references/gamepc-2026-10-21/AstarPathfindingProject.dll",
+      "Name": "AstarPathfindingProject",
+      "Version": "0.0.0.0",
+      "SHA256": "9cc4a4c6906ab9d48c18d03fdfb45b0ab36347a77b4314b972aee7f9bd6fcf54"
+    }
+  ],
+  "ReleasePublication": {
+    "Authorized": true,
+    "Repository": "Xinkle/PathfinderWOTR-IsekaiMod",
+    "Tag": "v5.4.4-ko.1",
+    "Prerelease": true,
+    "Package": "IsekaiMod-5.4.4-ko-KR.zip",
+    "Files": 64,
+    "Boundary": "Exact publication/asset verification recorded outside Git after publish; no game install/run."
+  }
+}
